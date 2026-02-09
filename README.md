@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="jack_the_dog/textures/dog.png" alt="Jack the dog" width="120" />
+</p>
+
 # RL with Jack the dog
 
 Educational reinforcement learning project with a dog-themed environment and accompanying seminar materials. The agent is **Jack the dog**, who finds himself in various situations solved through reinforcement learning: sometimes he learns new commands, such as putting socks in a box in a grid environment; sometimes he learns the right strategy—for example, avoiding the cold street and hiding from his master and many other funny stories.
