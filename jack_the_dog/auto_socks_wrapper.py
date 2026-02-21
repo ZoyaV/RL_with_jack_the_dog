@@ -36,3 +36,15 @@ class AutoSocksWrapper(Wrapper):
                 break
 
         return observation, reward, terminated, truncated, info
+
+    def get_all_states(self):
+        """Forward to the underlying env so wrapped envs remain compatible."""
+        return self.env.get_all_states()
+
+    def get_possible_actions(self, state):
+        """Forward to the underlying env so wrapped envs remain compatible."""
+        return self.env.get_possible_actions(state)
+
+    def get_next_states(self, state, action):
+        """Forward to the underlying env so wrapped envs remain compatible."""
+        return self.env.get_next_states(state, action)
